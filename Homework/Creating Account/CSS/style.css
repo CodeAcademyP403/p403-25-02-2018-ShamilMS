@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+body
+{   width: auto;
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    
+
+}
+
+body>div
+{
+    width: 50%;
+    height: 700px;
+    background-color: rgba(57, 50, 26, 0.63);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+h3, h1, p, form
+{
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 3%;
+
+    
+}
+
+
+}
+h1
+{
+    letter-spacing: 5px;
+    padding: 2%;
+    word-spacing: 10px;
+
+}
+
+input
+{   
+    margin-top: 5px;;
+    border-radius: 10px;
+    padding: 2%;
+    border: rgb(140, 206, 146) solid 1px;
+    width: 70%;
+    background-color: rgb(243, 247, 224);
+    
+    
+
+}
+
+input:hover
+{
+    background-color: rgb(227, 235, 139);     
+}
+
+button
+{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: rgb(151, 64, 64);
+    color: rgb(219, 211, 211);
+    width: 200px;
+    border-radius: 40px;
+    border: none;
+}
+button:hover
+{
+    background-color: rgb(150, 54, 54);
+}
+
+div>p
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span
+{
+    text-decoration: underline;
+    color: white;
+}
+

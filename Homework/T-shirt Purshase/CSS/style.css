@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+
+section
+{
+    width: 100%;
+    height: auto;
+}
+
+.left
+{
+    background-image:url(../image/shirt.jpg);
+    background-repeat: no-repeat;
+    width: 31%;
+    height:640px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    
+}
+
+.right
+{
+    width: 69%;
+    height: 640px;
+    float: right;
+    /* background-color: #335c629e; */
+    background:linear-gradient(#1e34419e, #857a499e);
+    border: 1px solid gray;
+    border-collapse: collapse;
+    
+}
+
+
+.left h1
+{
+    color: ##6b878b9c;
+    
+    font-size: 150%;
+    
+}
+
+
+.price
+
+{
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    margin: 90% 0 0 10%;
+    background-color: rgba(98, 158, 165, 0.671);
+    border-radius: 20px;
+    text-align: center
+}
+
+.price p
+{
+    font-size: 250%;
+    font-weight: 900;
+    color: #d9e6ee;
+    overflow: auto;
+    
+}
+
+.price span
+
+{
+    font-size: 150%;
+    font-weight: 900;
+    color: #ffffff;
+    overflow: auto;
+}
+
+
+
+.paragraph
+{   
+    font-size: 150%;
+    text-align: center;
+    width: 60%;
+    padding: 3%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    border-radius: 15px;
+    color: #ffffff;
+
+}
+
+input
+{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: auto;
+    padding: 1%;
+    font-size: 150%;
+    border: 2px solid rgb(64, 110, 68);
+    border-radius: 5px;
+    
+}
+
+.button
+{
+
+    width: 15%;
+    margin-left: 40%;
+    height:60px;
+    color: #ececec;
+    border-radius: 50px;
+    background-color: #943030;
+
+}
